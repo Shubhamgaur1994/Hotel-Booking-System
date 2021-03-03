@@ -1,0 +1,15 @@
+#load{
+    
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 120px;
+    margin-left: 120px;
+}
+#loader {
+    width: 9px;
+    height:9px;
+    display: inline-block;
+    border: 1px solid #f3f3f3;
+    border-radius: 50% ;
+    border-top-color:#444444;
+}

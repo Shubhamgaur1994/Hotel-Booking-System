@@ -1,0 +1,34 @@
+
+body{
+    height: 100%;
+    width: 100%;
+    background-color: #e0e0e0;
+    
+}
+ #logo{
+    height: 60px;
+    width: 60px;
+}
+.Content{
+    padding-left:10px ;
+    
+}
+.images {
+width:250px;
+height:250px;
+padding-right: 250px;
+padding-bottom: 50px;
+margin-top: 15px;
+background-color:  rgb(132,136,139);
+
+}
+.social{
+width:22px;
+height:20px;
+}
+.Header{
+    background:rosybrown ;}
+
+  
+    .Footer{
+    background:rosybrown ;}

@@ -1,0 +1,27 @@
+
+body{
+    height: 100%;
+    width: 100%;
+    background-color: #e0e0e0;
+}
+#logo{
+    height: 60px;
+    width: 60px;
+}
+#images {
+width:500px;
+height:500px;
+}
+.social{
+width:22px;
+height:20px;
+}
+.Content{
+    padding-left:10px ;
+}
+.Header{
+    background:rosybrown ;}
+
+  
+    .Footer{
+    background:rosybrown ;}
