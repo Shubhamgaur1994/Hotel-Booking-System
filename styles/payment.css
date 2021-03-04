@@ -3,6 +3,7 @@ body{
     height: 100%;
     width: 100%;
     background-color: #e0e0e0;
+    font-family:  'Ubuntu', sans-serif; 
 }
 #logo{
     height: 60px;
@@ -22,6 +23,9 @@ background-color: rgb(132,136,139);
 }
 .form{
     padding-top: 125px;
+    text-decoration: none;
+        color: black;
+        text-transform: uppercase;
 }
 #amount{
     border:2px;
@@ -36,11 +40,31 @@ background-color: rgb(132,136,139);
 .social{
 width:22px;
 height:20px;
+float: right;
 }
-
+#Room{
+    text-align: center;
+    text-decoration: none;
+        color: black;
+        text-transform: uppercase;
+}
+#login{
+    float: right;
+    margin-right: 25px;
+    margin-top: 20px;
+    text-decoration: none;
+    color: black;
+    line-height: 50px;
+        padding-right: 10px;
+}
 .Header{
     background:rosybrown ;}
 
   
     .Footer{
     background:rosybrown ;}
+    #contact{
+        text-decoration: none;
+        color: black;
+        text-transform: uppercase;
+    }
