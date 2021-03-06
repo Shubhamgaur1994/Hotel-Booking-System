@@ -8,7 +8,6 @@
 .cityimages{
    margin-left: 175px;
 }
-
    #viewmore{
        text-align: center;
 padding-bottom:50px;
@@ -48,6 +47,7 @@ padding-bottom:50px;
     display: block;
     width: 100%;
     height: auto;
+    
   }
   
   .overlay1 {

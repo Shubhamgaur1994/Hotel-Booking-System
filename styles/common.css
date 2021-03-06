@@ -11,7 +11,7 @@ a{
 }
 .Header{
     background:rosybrown ;
-    
+    padding-bottom: 10px;
 }
 .Content{
     margin-left: 25px;
