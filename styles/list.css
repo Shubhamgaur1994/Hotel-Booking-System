@@ -13,7 +13,7 @@
      
  }
  .hoteldetails{
-     transform: translate(260px,-260px);
+     transform: translate(260px,-250px);
  }
      .Content{
         display: inline-grid;
