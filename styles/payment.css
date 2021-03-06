@@ -1,16 +1,9 @@
-
-#images {
-    width:500px;
-    height:500px;
-}
 #hotelimage{
     margin-top: 30px ;
     margin-left: 225px;
-    margin-bottom: 100px;
     margin-right: 250px;
-    padding-bottom: 20px;
     background-color:  rgb(132,136,139);
-    max-height: 480px;
+    max-height: 500px;
     transform: scale(1,0.90);
 }
 
