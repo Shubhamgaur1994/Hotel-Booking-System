@@ -6,12 +6,11 @@
         }
 .cityimages{
    margin-left: 175px;
-  
 }
 
    #viewmore{
        text-align: center;
-padding-bottom:15px;
+padding-bottom:30px;
    }
 #searchbar{
     background-image: url(https://media-cdn.tripadvisor.com/media/photo-o/14/10/2e/af/india.jpg);
@@ -32,165 +31,154 @@ padding-bottom:15px;
 }
 .container {
     display: grid;
+  
    }
    .container1 {
-     position: relative;
-     grid-column-start:1 ;
-     grid-column-end: 3;
-     grid-row-start:2 ;
-     grid-row-end: 2;
-   }
+    position: relative;
+    grid-column-start:1 ;
+    grid-column-end: 3;
+    grid-row-start:2 ;
+    grid-row-end: 2;
+
+  }
+  
+  .image1 {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay1 {
+    position:relative;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); 
+    color: #f1f1f1; 
+    width: 100%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 100%;
+    width:150px;
+    height:150px;
+    margin-left: 40px;
+   	border-radius:50px;
+    text-align: center;
+    line-height: 150px;
+    transform: translate(0px,-194px);
+  }
+  
+  .container1:hover .overlay1 {
+    opacity: 1;
+  }
+
+ .container2 {
+    position: relative;
+    grid-column-start:2 ;
+    grid-column-end: 4;
+    grid-row-start:2 ;
+    grid-row-end: 2;
+  }
+  
+  .image2 {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay2 {
+    position:relative;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); 
+    color: #f1f1f1; 
+    width: 100%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 100%;
+    width:150px;
+    height:150px;
+    margin-left: 40px;
+	border-radius:50px;
+  text-align: center;
+  line-height: 150px;
+    transform: translate(0px,-194px);
+  }
+  
+  .container2:hover .overlay2 {
+    opacity: 1;
+  }
+
+  .container3 {
+    position: relative;
+    grid-column-start:3 ;
+    grid-column-end: 5;
+    grid-row-start:2 ;
+    grid-row-end: 2;
+  }
+  
+  .image3 {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay3 {
+    position:relative;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); 
+    color: #f1f1f1; 
+    width: 100%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 100%;
+    width:150px;
+    height:150px;
+    margin-left: 40px;
+	border-radius:50px;
+  text-align: center;
+  line-height: 150px;
+    transform: translate(0px,-194px);
+  }
+  
+  .container3:hover .overlay3 {
+    opacity: 1;
+  }
+
+ .container4 {
+    position: relative;
+    grid-column-start:4;
+    grid-column-end: 4;
+    grid-row-start:2 ;
+    grid-row-end: 2;
+  }
+  
+  .image4 {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay4 {
+    position:relative;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); 
+    color: #f1f1f1; 
+    width: 100%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 100%;
+    width:150px;
+    height:150px;
+    margin-left: 40px;
+	  border-radius:50px;
+    text-align: center;
+    line-height: 150px;
+    transform: translate(0px,-194px);
    
-   .image1 {
-     opacity: 1;
-     display: block;
-     width: 100%;
-     height: auto;
-     transition: .5s ease;
-     backface-visibility: hidden;
-     
-   }
-   
-   .middle1 {
-     transition: .5s ease;
-     opacity: 0;
-     position: absolute;
-     top: 40%;
-     left: 12%;
-     text-align: center;
-     
-   }
-   
-   .container1:hover .image1 {
-     opacity: 0.3;
-     
-   }
-   
-   .container1:hover .middle1 {
-     opacity: 1;
-   }
-   
-   .text1 {
-     color: white;
-     font-size: 16px;
-     padding: 16px 32px;
-   }
-   .container2 {
-     position: relative;
-     grid-column-start:2 ;
-     grid-column-end: 4;
-     grid-row-start:2 ;
-     grid-row-end: 2;
-   }
-   
-   .image2 {
-     opacity: 1;
-     display: block;
-     width: 100%;
-     height: auto;
-     transition: .5s ease;
-     backface-visibility: hidden;
-     
-   }
-   
-   .middle2 {
-     transition: .5s ease;
-     opacity: 0;
-     position: absolute;
-     top: 40%;
-     left: 12%;
-     text-align: center;
-   }
-   
-   .container2:hover .image2 {
-     opacity: 0.3;
-   }
-   
-   .container2:hover .middle2 {
-     opacity: 1;
-   }
-   
-   .text2 {
-     color: white;
-     font-size: 16px;
-     padding: 16px 32px;
-   }
-   .container3 {
-     position: relative;
-     grid-column-start:3 ;
-     grid-column-end: 5;
-     grid-row-start:2 ;
-     grid-row-end: 2;
-   }
-   
-   .image3 {
-     opacity: 1;
-     display: block;
-     width: 100%;
-     height: auto;
-     transition: .5s ease;
-     backface-visibility: hidden;
-   }
-   
-   .middle3 {
-     transition: .5s ease;
-     opacity: 0;
-     position: absolute;
-     top: 40%;
-     left: 7%;
-     text-align: center;
-   }
-   
-   .container3:hover .image3 {
-     opacity: 0.3;
-   }
-   
-   .container3:hover .middle3 {
-     opacity: 1;
-   }
-   
-   .text3 {
-      color: white;
-     font-size: 16px;
-     padding: 16px 32px;
-   }
-   .container4 {
-     position: relative;
-     grid-column-start:4;
-     grid-column-end: 4;
-     grid-row-start:2 ;
-     grid-row-end: 2;
-   }
-   
-   .image4 {
-     opacity: 1;
-     display: block;
-     width: 100%;
-     height: auto;
-     transition: .5s ease;
-     backface-visibility: hidden;
-   }
-   
-   .middle4 {
-     transition: .5s ease;
-     opacity: 0;
-     position: absolute;
-     top: 40%;
-     left: 15%;
-     text-align: center;
-   }
-   
-   .container4:hover .image4 {
-     opacity: 0.3;
-   }
-   
-   .container4:hover .middle4 {
-     opacity: 1;
-     
-   }
-   
-   .text4 {
-     color: white;
-     font-size: 16px;
-     padding: 16px 32px;
-   }
+  }
+  
+  .container4:hover .overlay4 {
+    opacity: 1;
+  }
