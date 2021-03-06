@@ -1,8 +1,18 @@
+<<<<<<< HEAD
 #load{  
     display: flex;
     justify-content: center;
     margin-top: 20%;
     transform: scale(5,5);
+=======
+
+#load{
+    
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 120px;
+    margin-left: 120px;
+>>>>>>> 3ccf7f6e720a28e592ff7e1ec28618366da80c54
 }
 #loader {
     width: 9px;

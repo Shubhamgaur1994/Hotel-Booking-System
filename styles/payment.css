@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #images {
     width:500px;
     height:500px;
@@ -48,3 +49,75 @@
    
     
 } 
+=======
+
+body{
+    height: 100%;
+    width: 100%;
+    background-color: #e0e0e0;
+    font-family:  'Ubuntu', sans-serif; 
+}
+#logo{
+    height: 60px;
+    width: 60px;
+}
+.images {
+width:500px;
+height:500px;
+margin-top: 50px ;
+margin-left: 425px;
+padding-bottom: 120px;
+padding-right: 125px;
+background-color: rgb(132,136,139);
+}
+.Content{
+    padding-left:15px ;
+}
+.form{
+    padding-top: 125px;
+    text-decoration: none;
+        color: black;
+        text-transform: uppercase;
+}
+#amount{
+    border:2px;
+    border-style: solid;
+    border-color: black;
+    padding-top: 10px;
+    padding-left: 45px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    
+}
+.social{
+width:22px;
+height:20px;
+float: right;
+}
+#Room{
+    text-align: center;
+    text-decoration: none;
+        color: black;
+        text-transform: uppercase;
+}
+#login{
+    float: right;
+    margin-right: 25px;
+    margin-top: 20px;
+    text-decoration: none;
+    color: black;
+    line-height: 50px;
+        padding-right: 10px;
+}
+.Header{
+    background:rosybrown ;}
+
+  
+    .Footer{
+    background:rosybrown ;}
+    #contact{
+        text-decoration: none;
+        color: black;
+        text-transform: uppercase;
+    }
+>>>>>>> 3ccf7f6e720a28e592ff7e1ec28618366da80c54

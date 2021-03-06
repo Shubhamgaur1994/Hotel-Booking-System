@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .container{
   display: grid;
  
@@ -46,3 +47,69 @@
 #view{
     margin-left: 500px;
 }
+=======
+
+body{
+    height: 100%;
+    width: 100%;
+    background-color: #e0e0e0;
+    font-family:  'Ubuntu', sans-serif; 
+    
+   
+}
+#list{
+    display: grid;
+    justify-content: center;
+    text-decoration: none;
+        color: black;
+        text-transform: uppercase;
+}
+ #logo{
+    height: 60px;
+    width: 60px;
+}
+.Content{
+    padding-left:10px ;
+    
+}
+
+.images {
+    width:250px;
+    height:250px;
+    margin-top: 30px ;
+    padding-bottom: 400px;
+    padding-right: 400px;
+    background-color: rgb(132,136,139);
+    }
+.social{
+width:22px;
+height:20px;
+float: right;
+}
+#Room{
+    text-align: center;
+    text-decoration: none;
+        color: black;
+        text-transform: uppercase;
+}
+#login{
+    float: right;
+    margin-right: 25px;
+    margin-top: 20px;
+    text-decoration: none;
+    color: black;
+    line-height: 50px;
+        padding-right: 10px;
+}
+.Header{
+    background:rosybrown ;}
+
+  
+    .Footer{
+    background:rosybrown ;}
+    #contact{
+        text-decoration: none;
+        color: black;
+        text-transform: uppercase;
+    }
+>>>>>>> 3ccf7f6e720a28e592ff7e1ec28618366da80c54
