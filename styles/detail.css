@@ -1,0 +1,27 @@
+#images {
+    width:500px;
+    height:500px;
+}
+#image{
+    margin-left: 50px;
+}
+.container{
+    display: grid;
+    margin: 30px;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 5px;
+    justify-content: space-around;
+    align-items: center;
+    
+} 
+#detail1{
+    display: grid;
+    grid-column-start:2 ;
+    grid-column-end: 3;
+    grid-row-start:1 ;
+    grid-row-end: 2;
+   text-align: left ;
+   
+
+}

@@ -1,0 +1,51 @@
+body{
+    height: 100%;
+    width: 100%;
+  background-color: #e0e0e0;
+    font-family:  'Ubuntu', sans-serif; 
+}
+a{
+    text-decoration: none;
+   color: black;
+   text-transform: uppercase
+}
+.Header{
+    background:rosybrown ;
+    
+}
+.Content{
+    margin-left: 25px;
+    margin-top:25px;
+}
+  
+    .Footer{
+    background:rosybrown ;}
+#logo{
+    height: 60px;
+    width: 60px;
+}
+.social{
+    width:22px;
+    height:20px;
+    
+    
+}
+.socialmedialogo{    
+    float: right;
+    margin-top: 10px;
+    margin-right:20px;
+}
+#room{
+ text-align: center;
+ padding-top: 5px ;
+}
+#contact{
+    float: left;
+    margin-top: 10px;
+}
+#login{
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+

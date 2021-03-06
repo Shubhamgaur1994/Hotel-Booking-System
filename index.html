@@ -5,36 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Index</title>
-    <style>
-        body{
-            height: fit-content;
-            width: fit-content;
-        }
-    </style>
+    <link rel="stylesheet" href="styles/common.css">
+    <link rel="stylesheet" href="styles/index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+
 </head>
 <body>
     <div>
     <div class="Header">
-       <span id="mylogo"><img src="assests\images\logo.png" alt="logo" width="60" height="60"></span>
-       <a href="login.html" target="_self">Login</a>
+       <span id="mylogo"><img src="assests\images\logo.png" alt="logo" width="120" height="120" id="logo"></span>
+       <a href="login.html" target="_self" id="login">Login</a>
     </div>
-    <div class="Content">
-        <div><input type="text" placeholder="City"></div>
-   
-        <div >
-            <span id="images 1"><a href="list.html" target="_self"><img src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/a2/new-delhi.jpg" width ="150" height = "150"></a></span>
-            <span id="images 2" ><img src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fc/f0/goa.jpg" width ="150" height = "150"></span>
-            <span id="images 3"><img src="https://media-cdn.tripadvisor.com/media/photo-s/0f/98/f7/df/charminar.jpg" width ="150" height = "150"></span>
-            <span id="images 4"><img src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/ac/kolkata-calcutta.jpg"width ="150" height = "150"></span>
-        </div>
-        <div><a href="index.html">View more>></a></div>
+    
+        <div id="searchbar"><input type="text" placeholder="City"id="search"></div>
+        <div class="Content">
+        <div class="cityimages">
+            <span ><a href="list.html" target="_self"><img src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/a2/new-delhi.jpg" width ="300" height = "300" class="images" id="images 1"></a></span>
+            <span ><img src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fc/f0/goa.jpg" width ="300" height = "300" class="images" id="images 2"></span>
+            <span ><img src="https://media-cdn.tripadvisor.com/media/photo-s/0f/98/f7/df/charminar.jpg" width ="300" height = "300" class="images"id="images 3"></span>
+            <span ><img src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/ac/kolkata-calcutta.jpg"width ="300" height = "300" class="images"id="images 4"></span>
+        </div></div>
+        <div id="viewmore"><a href="index.html">View more>></a></div>
     </div>    
     <div class ="Footer">
-        <a href="contact.html" target="_self">Contact Us</a>
-        <div id=" social media logo">
-        <a href="https://www.facebook.com" target="_blank"><img src="assests/images/facebook.png" width="22" height="20"></a>
-        <a href="https://www.instagram.com" target="_blank"><img src="assests/images/instagram.png" width="22" height="20"></a>
-        <a href="https://twitter.com" target="_blank"><img src="assests/images/twitter.png" width="22" height="20"></a>
+        <a href="contact.html" target="_self" id="contact">Contact Us</a>
+        <div class=" socialmedialogo">
+        <a href="https://www.facebook.com" target="_blank"><img src="assests/images/facebook.png" width="22" height="20" class="social"></a>
+        <a href="https://www.instagram.com" target="_blank"><img src="assests/images/instagram.png" width="22" height="20" class="social"></a>
+        <a href="https://twitter.com" target="_blank"><img src="assests/images/twitter.png" width="22" height="20" class="social"></a></div>
+    <div id="room">
         <br>&#169 2020 ROOM SEARCH PVT. LTD
     </div>
     </div>

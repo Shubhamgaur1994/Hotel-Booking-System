@@ -1,0 +1,14 @@
+#load{  
+    display: flex;
+    justify-content: center;
+    margin-top: 20%;
+    transform: scale(5,5);
+}
+#loader {
+    width: 9px;
+    height:9px;
+    display: inline-block;
+    border: 1px solid #f3f3f3;
+    border-radius: 50% ;
+    border-top-color:#444444;
+}
