@@ -10,7 +10,7 @@
 
    #viewmore{
        text-align: center;
-padding-bottom:30px;
+padding-bottom:50px;
    }
 #searchbar{
     background-image: url(https://media-cdn.tripadvisor.com/media/photo-o/14/10/2e/af/india.jpg);
@@ -18,20 +18,21 @@ padding-bottom:30px;
     background-repeat:no-repeat;
     padding-bottom: 30px;
     text-align: center;
-    line-height: 755px;
+    line-height: 700px;
+    max-height: 550px;
 }
 #search{
     text-align: left;
-    padding-right: 100px;
+    padding-right: 150px;
     padding-bottom: 10px; 
-    border-radius: 7px;
+    border-radius: 10px;
     opacity: 0.9;
     background-color: #f1f1f1;
     border-color: white;
 }
 .container {
     display: grid;
-  
+    max-height: 350px;
    }
    .container1 {
     position: relative;
