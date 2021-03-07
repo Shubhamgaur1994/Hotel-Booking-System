@@ -3,7 +3,16 @@
     width:500px;
     height:500px;
 }
-#image{
+#image1{
+    
+    margin-left: 50px;
+}
+#image2{
+    
+    margin-left: 50px;
+}
+#image3{
+    
     margin-left: 50px;
 }
 .container{
@@ -14,6 +23,7 @@
     border-radius: 5px;
     justify-content: space-around;
     align-items: center;
+   
     
 } 
 #detail1{
@@ -22,7 +32,32 @@
     grid-column-end: 3;
     grid-row-start:1 ;
     grid-row-end: 2;
-   text-align: left ;
+   text-align: justify   ;
    
 
 }
+.checked{
+    color: orange;
+}
+
+input { 
+    margin-top:25px;
+    margin-bottom: 25px;
+   
+}
+.form { margin-left: 20px;
+        padding-left:20px;
+        padding-bottom: 20px;
+        border-left: 2px solid black;}
+        #Booknow{
+            width: fit-content;
+            transform: translateX(80px);
+            margin-top: 15px;
+        }
+        #date1{
+            padding-right: 10px;
+        }
+        #date2{
+            padding-right: 30px;
+        }
+      

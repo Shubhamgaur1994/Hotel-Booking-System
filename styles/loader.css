@@ -13,4 +13,8 @@
     border: 1px solid #f3f3f3;
     border-radius: 50% ;
     border-top-color:#444444;
+    animation: myMove 2s infinite;
 }
+@keyframes myMove {
+    0% {transform: rotate(-360deg);}
+  }

@@ -24,7 +24,7 @@
     grid-column-end: 2;
     background-color: rgb(132,136,139); 
     height: 250px;
-    
+    cursor: pointer;
 }
 #image2{
     display: grid;
@@ -34,6 +34,8 @@
     grid-row-end: 2;
     background-color: rgb(132,136,139); 
     height: 250px;
+    cursor: pointer;
+
 }
 #image3{
     
@@ -41,8 +43,12 @@
     grid-column-end: 2;
     background-color: rgb(132,136,139); 
     height: 250px;
-    
+    cursor: pointer;    
 } 
 #view{
     margin-left: 500px;
+    
+}
+.checked{
+    color: orange;
 }
