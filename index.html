@@ -16,7 +16,33 @@
     <div>
     <div class="Header">
        <span id="mylogo"><img src="assests\images\logo.png" alt="logo" width="120" height="120" id="logo"></span>
-       <a href="login.html" target="_self" id="login"><button type="button" class="btn btn-light">LOGIN</button></a>
+       <!-- <a href="login.html" target="_self" id="login"><button type="button" class="btn btn-light">LOGIN</button></a> -->
+       <button id="login" type="button" class="btn btn-light" data-toggle="modal" data-target="#registerModal" id="sign-in-button">
+        LOGIN
+    </button>
+  <div class="modal fade" id="registerModal" tabindex="-1" role="dialog" aria-labelledby="registerModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="registerModalLabel">Please Login</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+                <form>
+                    <div class="form-group">
+                        <label for="registerInputEmail">Username</label>
+                        <input type="email" class="form-control" id="registerInputEmail" aria-describedby="emailHelp" placeholder="Enter Username">
+                    </div>
+                    <div class="form-group">
+                        <label for="registerInputpassword">Password</label>
+                        <input type="password" class="form-control" id="registerInputpassword aria-describedby="emailHelp" placeholder="Password">
+                    </div>
+                    <button type="register" class="btn btn-primary" >Login</button>
+                </form>
+        </div></div></div></div>
+    
     </div>
     
         <div id="searchbar"><input type="text" placeholder="City"id="search"></div>
@@ -39,7 +65,35 @@
         <div id="viewmore"><a href="index.html"><button type="button" class="btn btn-secondary">View more>></button></a></div>
     </div>    
     <div class ="Footer">
-        <a href="contact.html" target="_self" id="contact"><button type="button" class="btn btn-primary">Contact Us</button></a>
+        <!-- <a href="contact.html" target="_self" id="contact"><button type="button" class="btn btn-primary">Contact Us</button></a> -->
+  <!-- Button trigger modal -->
+<button type="button" id="contact" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+  Contact us
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Get in touch</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        Thank you for reaching out!!!<br/>
+        Please enter you email and we will get back to you.
+      </div>
+      <form >
+        <p>Email:<input type="text" placeholder="Enter your email" required></p><p>
+          <div class="modal-footer">
+        <br><input type="submit" class="btn btn-primary" value = "Submit" formaction="index.html"></p>
+        </form>
+    </div>
+    </div>
+  </div>
+</div>
         <div class=" socialmedialogo">
         <a href="https://www.facebook.com" target="_blank"><img src="assests/images/facebook.png" width="22" height="20" class="social"></a>
         <a href="https://www.instagram.com" target="_blank"><img src="assests/images/instagram.png" width="22" height="20" class="social"></a>
