@@ -52,3 +52,12 @@
 .checked{
     color: orange;
 }
+#image1:hover {
+    background-color: rosybrown;
+  }
+  #image2:hover {
+    background-color: rosybrown;
+  }
+  #image3:hover {
+    background-color: rosybrown;
+  }
