@@ -1,63 +1,61 @@
 
-#images {
-    width:500px;
-    height:500px;
+#slideshow-container, #booking-form {
+    padding: 1%;
+    text-align: center;
+    border: 1px solid black;
+    max-height: 400px;
 }
-#image1{
-    
-    margin-left: 50px;
+#slideshow-container {
+    margin-left: 2% ;
+    border-right: none;
+    flex-grow: 3;
+    max-width: 60%;
 }
-#image2{
-    
-    margin-left: 50px;
+#booking-form {
+    margin-right: 2%;
+    flex-grow: 1;
 }
-#image3{
-    
-    margin-left: 50px;
+#hotel-description {
+    margin: 2%;
 }
-.container{
-    display: grid;
-    margin: 30px;
-    padding: 5px;
-    border: 2px solid black;
-    border-radius: 5px;
-    justify-content: space-around;
-    align-items: center;
-   
-    
-} 
-#detail1{
-    display: grid;
-    grid-column-start:2 ;
-    grid-column-end: 3;
-    grid-row-start:1 ;
-    grid-row-end: 2;
-   text-align: justify   ;
-   
+#detail-container {
+    margin-top:7%;
+    margin-bottom: 7%;
+}
+#slideshow-booking {
+    display: flex;
+    justify-content: start;
+    align-content: center;
+}
+.slider-image {
+    max-height: 350px;
+}
+.outer {
+    padding: 3%;
+    display: flex;
+    justify-content: space-between;
+}
+#book-now {
+    margin-top: 5%;
+}
+.inner {
+    width: 60%;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  background-image: none;
+}
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: rosybrown;
+}
 
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: rosybrown;
 }
-.checked{
-    color: orange;
-}
-
-input { 
-    margin-top:25px;
-    margin-bottom: 25px;
-   
-}
-.form { margin-left: 20px;
-        padding-left:20px;
-        padding-bottom: 20px;
-        border-left: 2px solid black;}
-        #Booknow{
-            width: fit-content;
-            transform: translateX(80px);
-            margin-top: 15px;
-        }
-        #date1{
-            padding-right: 10px;
-        }
-        #date2{
-            padding-right: 30px;
-        }
-      

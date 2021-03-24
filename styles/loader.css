@@ -1,20 +1,21 @@
 
-#load{  
-    display: flex;
-    justify-content: center;
-    margin-top: 20%;
-    transform: scale(5,5);
+.loader { 
+    border: 12px solid #f3f3f3; 
+    border-radius: 50%; 
+    border-top: 12px solid #444444; 
+    width: 70px; 
+    height: 70px; 
+    animation: spin 1s linear infinite; 
+    position: absolute; 
+    top: 0; 
+    bottom: 0; 
+    left: 0; 
+    right: 0; 
+    margin: auto;
+} 
 
-}
-#loader {
-    width: 9px;
-    height:9px;
-    display: inline-block;
-    border: 1px solid #f3f3f3;
-    border-radius: 50% ;
-    border-top-color:#444444;
-    animation: myMove 2s infinite;
-}
-@keyframes myMove {
-    0% {transform: rotate(-360deg);}
-  }
+@keyframes spin { 
+    100% { 
+        transform: rotate(360deg); 
+    } 
+} 

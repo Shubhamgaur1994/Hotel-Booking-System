@@ -1,189 +1,72 @@
-.images {
-            width:150px;
-            height:150px;
-          margin: 40px ;
-	  border-radius:50px;
-    justify-content: space-between;
-        }
-.cityimages{
-   margin-left: 175px;
+
+
+#index-container {
+    display: flex;
+    flex-direction: column;
 }
-   #viewmore{
-       text-align: center;
-padding-bottom:50px;
-   }
-#searchbar{
-    background-image: url(https://media-cdn.tripadvisor.com/media/photo-o/14/10/2e/af/india.jpg);
+#city-cards {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 4% 0%;
+}
+.city-image{
+    height: 150px;
+    width: 150px;
+    border-radius: 25%;
+    box-shadow: 10px 10px 10px grey;
+}
+.city-card-and-name-inner {
+    position: relative;
+}
+/* Added CSS for background image */
+#banner{
+    background-image: url("https://media-cdn.tripadvisor.com/media/photo-o/14/10/2e/af/india.jpg");
+    /* Control the height of the image */
+    height: 380px;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
-    background-repeat:no-repeat;
-    padding-bottom: 30px;
-    text-align: center;
- 
+    position: relative;
 }
-#search{
-    text-align: left;
-    padding-right: 150px;
-    border-radius: 10px;
-    opacity: 0.9;
+#search-bar {
+    position: absolute;
+    top: 50%;
+    left: 36%; 
+    right: 36%;
+    bottom: 50%;
+}
+#search-input {
+    border: 1px solid transparent;
     background-color: #f1f1f1;
-    border-color: white;
-    transform: translateY(350px);
-    margin-bottom: 550px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 12px;
+    width: 100%;
 }
-.container {
-    display: grid;
-    max-height: 350px;
-   }
-   .container1 {
-    position: relative;
-    grid-column-start:1 ;
-    grid-column-end: 3;
-    grid-row-start:2 ;
-    grid-row-end: 2;
-
-  }
-  
-  .image1 {
-    display: block;
+#search-input:focus {
+    outline: none;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
     width: 100%;
-    height: auto;
-    
-  }
-  
-  .overlay1 {
-    position:relative;
-    background: rgb(0, 0, 0);
-    background: rgba(0, 0, 0, 0.5); 
-    color: #f1f1f1; 
-    width: 100%;
-    transition: .5s ease;
-    opacity:0;
-    color: white;
-    font-size: 100%;
-    width:150px;
-    height:150px;
-    margin-left: 40px;
-   	border-radius:50px;
+    height: 100%;
+    opacity: 0;
     text-align: center;
-    line-height: 150px;
-    transform: translate(0px,-190px);
-  }
-  
-  .container1:hover .overlay1 {
+    border-radius: 25%;
+}
+.city-card-and-name-inner:hover .overlay {
     opacity: 1;
-  }
-
- .container2 {
-    position: relative;
-    grid-column-start:2 ;
-    grid-column-end: 4;
-    grid-row-start:2 ;
-    grid-row-end: 2;
-  }
-  
-  .image2 {
-    display: block;
-    width: 100%;
-    height: auto;
-  }
-  
-  .overlay2 {
+}
+.overlay span {
     position:relative;
-    background: rgb(0, 0, 0);
-    background: rgba(0, 0, 0, 0.5); 
-    color: #f1f1f1; 
-    width: 100%;
-    transition: .5s ease;
-    opacity:0;
-    color: white;
-    font-size: 100%;
-    width:150px;
-    height:150px;
-    margin-left: 40px;
-	border-radius:50px;
-  text-align: center;
-  line-height: 150px;
-    transform: translate(0px,-190px);
-    cursor: pointer;
-  }
-  
-  .container2:hover .overlay2 {
-    opacity: 1;
-  }
-
-  .container3 {
-    position: relative;
-    grid-column-start:3 ;
-    grid-column-end: 5;
-    grid-row-start:2 ;
-    grid-row-end: 2;
-  }
-  
-  .image3 {
-    display: block;
-    width: 100%;
-    height: auto;
-  }
-  
-  .overlay3 {
-    position:relative;
-    background: rgb(0, 0, 0);
-    background: rgba(0, 0, 0, 0.5); 
-    color: #f1f1f1; 
-    width: 100%;
-    transition: .5s ease;
-    opacity:0;
-    color: white;
-    font-size: 100%;
-    width:150px;
-    height:150px;
-    margin-left: 40px;
-	border-radius:50px;
-  text-align: center;
-  line-height: 150px;
-    transform: translate(0px,-190px);
-    cursor: pointer;
-  }
-  
-  .container3:hover .overlay3 {
-    opacity: 1;
-  }
-
- .container4 {
-    position: relative;
-    grid-column-start:4;
-    grid-column-end: 4;
-    grid-row-start:2 ;
-    grid-row-end: 2;
-  }
-  
-  .image4 {
-    display: block;
-    width: 100%;
-    height: auto;
-  }
-  
-  .overlay4 {
-    position:relative;
-    background: rgb(0, 0, 0);
-    background: rgba(0, 0, 0, 0.5); 
-    color: #f1f1f1; 
-    width: 100%;
-    transition: .5s ease;
-    opacity:0;
-    color: white;
-    font-size: 100%;
-    width:150px;
-    height:150px;
-    margin-left: 40px;
-	  border-radius:50px;
-    text-align: center;
-    line-height: 150px;
-    transform: translate(0px,-190px);
-    cursor: pointer;
-  }
-  
-  .container4:hover .overlay4 {
-    opacity: 1;
-  }
- 
+    top:45%;
+}
+#view-more {
+    margin-bottom:7%;
+    display: flex;
+    justify-content: center;
+}
