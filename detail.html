@@ -50,7 +50,7 @@
                         <form action="payment.html" method="get" autocomplete="off">
                             <div class="outer">
                                 <label for="adult">Adults:</label>
-                                <input class="inner" type="number" name="adult" id="adult" value="1" min="1" required/>
+                                <input class="inner" type="number" name="adult" id="adult" value="1" min="1" oninput="pricecalculate()" required/>
                             </div>
 
                             <div class="outer">
@@ -60,17 +60,17 @@
 
                             <div class="outer">
                                 <label for="fromDate">From Date:</label>
-                                <input class="inner" type="date" name="fromDate" id="fromDate" required/>
+                                <input class="inner" type="date" name="fromDate" id="fromDate" oninput="pricecalculate()" required/>
                             </div>
 
                             <div class="outer">
                                 <label for="toDate">To Date:</label>
-                                <input class="inner" type="date" name="toDate" id="toDate" required/>
+                                <input class="inner" type="date" name="toDate" id="toDate" oninput="pricecalculate()" required/>
                             </div>
 
                             <div class="outer">
                                 <label for="price">Total:</label>
-                                <input class="inner" type="text" name="price" id="price" readonly/>
+                                <input class="inner" type="text" name="price" id="price" onkeyup="pricecalculate()" readonly/>
                             </div>
 
                             <div>
@@ -110,5 +110,6 @@
             </footer>
         </div>
         <script src="scripts/common.js"></script>
+        <script src="scripts/detail.js"></script>
     </body>
 </html>
