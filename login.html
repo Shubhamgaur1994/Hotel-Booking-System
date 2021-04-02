@@ -13,8 +13,10 @@
                 <label for="password">Password:</label>
                 <input type="password" name="password" id="password" placeholder="Enter Password" required/>
                 <br>
-                <input type="submit" value="Login">
+                <button type="submit" class="btn-orange" id="buttonLogin" data-bind="visible: showLoginButton">Log In</button>
+                <button data-bind="click: logout, visible: showLogoutButton" class="btn btn-default" id="buttonLogout">Log Out</button>
             </form>
         </div>
+        <script src="scripts/common.js"></script>
     </body>
 </html>
